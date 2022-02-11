@@ -3,9 +3,32 @@
   Start editing to see some magic happen :)
 </p>
 
-<div class="container>">
+<div class="container-fluid>">
   <div class="row">
-    <div class="col-md-6">lol</div>
-    <div class="col-md-6">lolz</div>
+    <h4><{{title}}/h4>
+    <div class="col-md-6">
+      <ul>
+        <li "ngfor="let item of items">
+          {{item}}
+        </li>
+      </ul>
+    </div>
+    <div class="col-md-6">
+      <table>
+        <tr>
+          <th>Name</th>
+          <th>Name</th>
+          <th>Name</th>
+
+        </tr>
+        <tr "ngfor="let person of people">
+          <td>{{person name}}</td>
+          <td>{{person age}}</td>
+          <td>{{person color}}</td>
+          <button class="btn btn.primary"(click)="removeLastElement()">Click</button>
+        </tr>
+      </table>
+    
+    </div>
   </div>
 </div>
