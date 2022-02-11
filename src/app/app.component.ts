@@ -21,4 +21,12 @@ export class AppComponent  {
   removeLastElement() {
     this.items.pop();
   }
+
+enber= Person{} = [
+  {name: 'Aladar', voted: true},
+  {name: 'Aladar2', voted: true},
+  {name: 'Aladar3', voted: false},
+
+];
+ 
 }
