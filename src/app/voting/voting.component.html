@@ -15,7 +15,7 @@ voting works!
   </div>
     <div class="row">
     <div class="col md 13">
-    <app-ballot></app-ballot>
+    <app-ballot [person]="person" (vote)="handleVote($event)"></app-ballot>
   </div>
     <div class="row">
     </div>

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Person } from './person';
 
 @Component({
   selector: 'app-voting',
@@ -7,10 +8,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class VotingComponent implements OnInit {
 
-  #input()kerdes: string | undefined;
+  @input()kerdes: string | undefined;
 
-
-
+  @input() people!: Person; 
   agree=0;
   disagree=0;
 
