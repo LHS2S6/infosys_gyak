@@ -22,6 +22,7 @@ export class AppComponent  {
     this.items.pop();
   }
 
+  question: "kerdes";
 enber= Person{} = [
   {name: 'Aladar', voted: true},
   {name: 'Aladar2', voted: true},
